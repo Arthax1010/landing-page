@@ -99,6 +99,9 @@ a {
 /*CSS for Section 2/5*/
 
 .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex: 1;
 }
 
@@ -106,15 +109,32 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    padding: 50px;
+}
+
+.itemlist {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    height: 500px;
+    width: 225px;
+    padding: 35px;
+    text-align: center;
 }
 
 .thumbnail {
-    height: 100px;
-    width: 100px;
+    height: 225px;
+    width: 225px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 }
 
 .description {
-
+    font-size: 18px;
+    padding-top: 10px;
+    color: #1F2937;
 }
 
 /*CSS for Section 3/5*/
