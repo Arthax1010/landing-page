@@ -163,24 +163,49 @@ a {
 
 .author {
     align-self: flex-end;
+    padding-top: 15px;
 }
 
 /*CSS for Section 4/5*/
 
 .signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 1;
 }
 
 .box2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
 }
 
-.book {
+.dinner {
+    color:#E5E7EB;
+    font-weight: 900;
+    font-size: 20px;
+}
 
+.dinner2 {
+    color:#E5E7EB;
+    font-size: 18px;
 }
 
 .button2 {
     background-color: #3882F6;
+    color:#E5E7EB;
+    border-color:#E5E7EB;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10px;
 }
 
 /*CSS for Section 5/5*/
