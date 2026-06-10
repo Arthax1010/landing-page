@@ -1,0 +1,165 @@
+body {
+    font-family: Roboto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 100vh;
+}
+/*CSS for Section 1/5*/
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.header-box {
+    display: flex;
+    align-items: space-between;
+    flex-direction: column;
+    justify-items: space-between;
+
+}
+
+.logo-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+}
+
+.list {
+    padding: 10px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+}
+
+.promo {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button1 {
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.intro-image {
+    height: 300px;
+    width: 500px;
+}
+
+/*CSS for Section 2/5*/
+
+.info {
+    flex: 1;
+}
+
+.infoheader {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.thumbnail {
+    height: 100px;
+    width: 100px;
+}
+
+.description {
+
+}
+
+/*CSS for Section 3/5*/
+
+
+
+.inspire {
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.author {
+
+}
+
+/*CSS for Section 4/5*/
+
+.signup {
+    flex: 1;
+}
+
+.box {
+    background-color: #3882F6;
+}
+
+.book {
+
+}
+
+.button2 {
+    background-color: #3882F6;
+}
+
+/*CSS for Section 5/5*/
+
+.footer{
+    background-color: #1F2937;
+}
+
+.copyright {
+
+}
