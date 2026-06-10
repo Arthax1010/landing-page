@@ -14,7 +14,6 @@ a {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
     height: 100vh;
 }
 /*CSS for Section 1/5*/
@@ -94,6 +93,7 @@ a {
 .intro-image {
     height: 300px;
     width: 500px;
+    padding-bottom: 100px;
 }
 
 /*CSS for Section 2/5*/
@@ -118,9 +118,10 @@ a {
 }
 
 .item {
-    height: 500px;
+    height: 400px;
     width: 225px;
     padding: 35px;
+    padding-bottom: 15px;
     text-align: center;
 }
 
@@ -139,11 +140,19 @@ a {
 
 /*CSS for Section 3/5*/
 
-
-
-.inspire {
+.box {
+    display: flex;
+    justify-content: center;
     background-color: #E5E7EB;
     flex: 1;
+}
+
+.inspire {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
 }
 
 .quote {
@@ -153,7 +162,7 @@ a {
 }
 
 .author {
-
+    align-self: flex-end;
 }
 
 /*CSS for Section 4/5*/
@@ -162,7 +171,7 @@ a {
     flex: 1;
 }
 
-.box {
+.box2 {
     background-color: #3882F6;
 }
 
